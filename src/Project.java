@@ -47,7 +47,7 @@ public class Project {
         Map<Calendar, List<Deliverable>> deliverables = new HashMap<>();
         List<Deliverable> myList = mainTask.allDeliverables();
         for(Deliverable del : myList) {
-            deliverables.put(del.getDate(), myList);
+            System.out.println(del.getDate());
         }
 
 
